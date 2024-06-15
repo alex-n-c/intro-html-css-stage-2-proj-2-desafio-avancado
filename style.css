@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*define que os preenchimentos será pelas bordas*/
+}
+body {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    background-color: #2C2B3D;
+}
+
+#page{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 65px;    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1083px;
+    height: 30px;    
+}
+
+nav ul{
+    display: flex;  
+    text-decoration: none;     
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 64px;      
+}
+
+nav ul a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 101px 0 157px;
+}
+
+main img{
+    width: 401px;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-left: 82px;
+    width: 604px;
+}
+
+main h1{
+    color: #FFFFFF;
+    margin-bottom: 59px;
+} 
+main h1 span, p span{
+    color: #00BFA6;
+} 
+
+main p{
+    font-family: "Open Sans", sans-serif;
+    color: #C2C2C2;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+
+footer {    
+    display: flex;    
+    justify-content: center;    
+    
+    font-size: 16px;    
+}
+
+footer p{
+    padding-top: 30px;
+    border-top: 1px  solid #00BFA6;
+    width: 568px;
+    text-align: center;
+}
+
+footer p,a{
+    color: #FFFFFF;
+}
+
+footer a{
+    text-decoration: none;        
+}
+
+#lock {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0px 0px 20px 20px;
+}
